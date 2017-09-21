@@ -1,0 +1,30 @@
+{
+  "name": "zapp-linter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxxafari/zapp-linter.git"
+  },
+  "keywords": [
+    "arduino",
+    "atom",
+    "linter",
+    "haptic"
+  ],
+  "author": "Max Berkenstam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxxafari/zapp-linter/issues"
+  },
+  "homepage": "https://github.com/maxxafari/zapp-linter#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "johnny-five": "^0.11.6",
+    "node-gyp": "^3.6.2"
+  }
+}
