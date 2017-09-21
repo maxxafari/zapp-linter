@@ -1,8 +1,12 @@
-var express = require('express')
-var app = express()
+"use strict";
+const express = require("express");
+const app = express();
 
-app.get('/zapp', function (req, res) {
-  res.json({status:"ok"});
-})
+const hardware = require("./hardwareConnection");
 
-app.listen(3000)
+app.get("/zapp", (req, res) => {
+  hardware.zapp();
+  res.json({status: "ok"});
+});
+
+app.listen(3000);

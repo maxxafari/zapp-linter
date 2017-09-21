@@ -29,7 +29,7 @@
     "no-array-constructor": 2,
     "no-caller": 2,
     "no-catch-shadow": 2,
-    "no-console": 2,
+    "no-console": 1,
     "no-duplicate-imports": 1,
     "no-eval": 2,
     "no-extend-native": 2,
