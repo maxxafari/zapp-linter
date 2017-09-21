@@ -15,7 +15,16 @@ board.on("ready", () => {
     type: "NC"
   });
   zapper.open();
-  //zapper.high();
+
+  const relayPower = new five.Pin({
+    pin: 8,
+    type: "digital",
+    mode: "1"
+  });
+  // turn on relayPower after relays controller pin is set to high
+  // or the relay will fire every time it restarts untill board is "ready"
+  relayPower.high();
+
   ready = true;
   console.log("board ready...");
 });

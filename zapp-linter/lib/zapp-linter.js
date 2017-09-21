@@ -4,8 +4,6 @@
 import { CompositeDisposable } from 'atom';
 import request from 'request'
 
-import provider from './provider';
-
 export default {
 
   zappLinterView: null,
