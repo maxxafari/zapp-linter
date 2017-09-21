@@ -1,0 +1,18 @@
+{
+  "name": "zapp-linter",
+  "main": "./lib/zapp-linter",
+  "version": "0.0.1",
+  "description": "Add Haptic feedback to atom",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "zapp-linter:zapp"
+  },
+  "repository": "https://github.com/atom/zapp-linter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "request": "^2.73.0"
+  }
+}

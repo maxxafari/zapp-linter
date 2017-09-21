@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Zapp! zapp-linter",
+        "command": "zapp-linter:zapp"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Zapp-linter",
+          "submenu": [
+            {
+              "label": "Zapp!",
+              "command": "zapp-linter:zapp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
