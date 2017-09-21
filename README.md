@@ -1,6 +1,8 @@
 # zapp-linter
 Linter with Haptic feedback to correct unwanted muscle memory
 
+![Overview image for wiring](https://raw.githubusercontent.com/maxxafari/zapp-linter/master/overview.png)
+
 ## why? 
 If you experiencing repetitive mistakes typing keywords, it might be caused by the muscle memory kicking in. 
 A regular linter might not correct these behaviours since its the Visual cortex that notice the error.
